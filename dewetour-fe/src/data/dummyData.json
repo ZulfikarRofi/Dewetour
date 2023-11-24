@@ -1,0 +1,8 @@
+[
+    { "id": 1, "destination_name": "Australia", "total_photos": 10, "price" : 12000000, "trip_name": "5D/4N Magic Sydney Fun" },
+    { "id": 2, "destination_name": "Indonesia", "total_photos": 25, "price" : 10000000, "trip_name": "5D/4N Magic Lombok Fun" },
+    { "id": 3, "destination_name": "Indonesia", "total_photos": 16, "price" : 24000000, "trip_name": "5D/4N Magic Raja Ampat Fun" },
+    { "id": 4, "destination_name": "Australia", "total_photos": 10, "price" : 11500000, "trip_name": "5D/4N Magic Canberra Fun" },
+    { "id": 5, "destination_name": "Japan", "total_photos": 10, "price" : 24000000, "trip_name": "5D/4N Magic Tokyo Fun" },
+    { "id": 6, "destination_name": "Japan", "total_photos": 15, "price" : 22999000, "trip_name": "5D/4N Magic Kyoto Fun" }
+]

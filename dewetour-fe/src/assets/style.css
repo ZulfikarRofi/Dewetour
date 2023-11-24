@@ -1,0 +1,619 @@
+.bg-first {
+  background-color: #ffaf00;
+}
+
+.btn-trans {
+  background-color: transparent;
+  color: #ffff;
+  border: 2px solid #ffff;
+}
+
+.search-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Product Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.search-bar-label {
+  color: #fff;
+  font-family: Product Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-bold-banner {
+  font-size: 72px;
+  color: #ffff;
+  font-weight: bolder;
+}
+
+.text-light-banner {
+  color: #fff;
+  font-family: Product Sans Thin;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* background-image: url("../assets/dewetour-asset/beach-image.png");
+width: 100%;
+height: 30rem;
+position: absolute;
+background-size: cover;
+background-position: center; */
+
+.banner {
+  background: #f1f1f1;
+  background-image: url("../assets/dewetour-asset/hibiscus-1.svg"),
+    url("../assets/dewetour-asset/palm-1.svg"),
+    url("../assets/dewetour-asset/beach-image.png"),
+    url("../assets/dewetour-asset/palm-bottom.png");
+  background-position: 100% 25%, 0% 50%, 50% 0%, 100% 100%;
+  background-size: 12%, 8%, 100%, 10%;
+  background-position: relative, relative, relative, absolute;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.backdrop {
+  background: #f1f1f1;
+  background-image: url("../assets/dewetour-asset/hibiscus-1.svg"),
+    url("../assets/dewetour-asset/palm-1.svg");
+  background-position: 100% 25%, 0% 50%;
+  background-size: 12%, 8%;
+  background-position: relative, relative;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.plain-backdrop {
+  background: #f1f1f1;
+}
+
+.navbar-default {
+  background-image: url("../assets/dewetour-asset/beach-image.png");
+  height: 8%;
+}
+
+.navbar-content {
+  gap: 15px;
+}
+
+.btn-trans:hover {
+  background-color: #ffaf00;
+  color: #ffff;
+  border: 0px;
+}
+
+.btn-first {
+  background-color: #ffaf00;
+  color: #ffff;
+  border: 0px;
+}
+.btn-first:hover {
+  background-color: transparent;
+  color: #ffff;
+  border: 2px solid #ffff;
+}
+
+.btn-second {
+  background-color: #ffaf00;
+  color: #ffff;
+  border: 0px;
+}
+.btn-second:hover {
+  background-color: #ffaf50;
+  color: #ffff;
+  border: 2px solid #ffff;
+}
+
+.bot-nav {
+  display: flex;
+  align-items: center;
+}
+
+.min-height {
+  height: 5%;
+}
+
+.card-support {
+  border-radius: 5px;
+  gap: 20px;
+  border: 0px;
+  width: 250px;
+  height: 350px;
+  background-color: #ffff;
+}
+
+.card-subtitle {
+  color: #000;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card-fill {
+  color: #878787;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.group-tour {
+  gap: 50px;
+}
+
+.group-title {
+  color: #000;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card-group-tour {
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+}
+
+.card-group-tour-img {
+  width: 328px;
+  height: 241px;
+  flex-shrink: 0;
+}
+.card-group-tour-title {
+  color: #000;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-group-tour-price {
+  color: #ffaf00;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.card-group-tour-dest {
+  color: #878787;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card-group-page {
+  object-position: right top;
+  width: 62px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 5px 0px 0px 5px;
+  background: #fff;
+  color: #000;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.detail-title {
+  color: #000;
+  font-family: Avenir;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.detail-dest {
+  color: #a8a8a8;
+  text-align: left;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.detail-img-banner {
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 1%;
+}
+
+.more-img-banner {
+  border-radius: 5px;
+  gap: 0.7rem;
+  width: 100%;
+}
+
+.more-img-banner img {
+  border-radius: 5px;
+  width: 26%;
+}
+
+.detail-head {
+  margin-left: 9rem;
+}
+
+.trip-info {
+  margin: 2% 10%;
+}
+
+.trip-info-title {
+  color: #000;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.others {
+  gap: 3.5rem;
+  justify-content: center;
+}
+
+.info-name {
+  color: #a8a8a8;
+  font-family: Avenir;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.info-value {
+  color: #000;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.description-title {
+  color: #000;
+  text-align: left;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.description-fill {
+  color: #a8a8a8;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.detail-pricing {
+  margin: 0% 10%;
+}
+
+.detail-price {
+  color: #ffaf00;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.person {
+  color: #000;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.total-pricing {
+  margin-top: 3%;
+  padding: 2% 0%;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+  border-color: #b7b7b780;
+}
+
+.equation:hover {
+  cursor: pointer;
+}
+
+.button-first {
+  color: #ffff;
+  background: #ffaf00;
+  font-weight: 600;
+  font-family: Avenir;
+  border-radius: 5px;
+  border: 0px solid #ffff;
+  width: 15%;
+  height: 120%;
+}
+
+.button-first:hover {
+  color: #ffff;
+  background: #ffaf00;
+  filter: brightness(95%);
+  font-weight: 600;
+  font-family: Avenir;
+  border-radius: 5px;
+  border: 0px solid #ffff;
+  width: 15%;
+  height: 120%;
+}
+
+.transaction-detail {
+  width: 80%;
+  height: 77%;
+  border-radius: 5px;
+  border: 2px solid #b7b7b7;
+  background: #ffff;
+}
+
+.status-transaction {
+  color: #f90;
+  height: 10%;
+  width: 50%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.transaction-dest {
+  color: #000;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.dest-name {
+  color: #959595;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.transaction-detail-text {
+  color: #000;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.transaction-fill-text {
+  color: #959595;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img-approval {
+  width: 60%;
+  height: 90%;
+  border: 4px solid #000;
+}
+
+.text-approval {
+  font-size: 12px;
+}
+
+.transaction-head {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.transaction-fill {
+  width: 90%;
+  margin-left: 5%;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.transaction-pricing-head {
+  color: #000;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.pricing-table {
+  width: 100%;
+}
+
+.total-price {
+  margin-right: 10%;
+}
+
+.pay-loc {
+  margin-right: 10%;
+}
+
+.history-title {
+  width: 36%;
+}
+
+.profile-detail {
+  width: 55%;
+  height: 66%;
+  border-radius: 5px;
+  border: 2px solid #b7b7b7;
+  background: #ffff;
+}
+
+.profile-title {
+  color: var(--Black, #050505);
+  font-family: Avenir;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px; /* 66.667% */
+}
+
+.profile-info-fill {
+  color: var(--Black, #050505);
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px; /* 142.857% */
+}
+
+.profile-info-head {
+  color: var(--Grey-Medium, #8a8c90);
+  font-family: Avenir;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.photo-profile {
+  width: 90%;
+  height: 90%;
+}
+
+.button-change-profile {
+  width: 90%;
+  height: 3rem;
+  border: 0px solid #000;
+  background: #ffaf00;
+  color: #ffff;
+  font-weight: 600;
+  font-family: Avenir;
+  font-size: 14px;
+}
+
+.button-change-profile:hover {
+  width: 90%;
+  height: 3rem;
+  border: 0px solid #000;
+  background: #ffaf00;
+  color: #ffff;
+  font-weight: 600;
+  font-family: Avenir;
+  font-size: 14px;
+  filter: brightness(95%);
+}
+
+.list-table {
+  width: 80%;
+  border-bottom: 1px solid ##c4c4c4;
+  shadow-box: 1px 2px 0px 0px #ffff;
+}
+
+.btn-add-trip {
+  background: #ffaf00;
+  border: 0px;
+  width: 10%;
+  height: 5%;
+  font-weight: 600;
+}
+
+.btn-add-trip:hover {
+  background: #ffaf00;
+  border: 0px;
+  width: 10%;
+  height: 5%;
+  font-weight: 600;
+  filter: brightness(95%);
+}
+
+.trip-form {
+  width: 80%;
+}
+.add-trip-form {
+  border-radius: 5px;
+  border: 2px solid #b1b1b1;
+  background: rgba(196, 196, 196, 0.5);
+}
+
+.add-trip-title-form {
+  color: #000;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.form-image {
+  border-radius: 5px;
+  border: 2px solid #b1b1b1;
+  background: rgba(196, 196, 196, 0.5);
+  width: 25%;
+}
+
+.form-image-label {
+  color: #ffaf00;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.modal-style {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.modal-global {
+  background-image: url("../assets/dewetour-asset/hibiscus-hd.png"),
+    url("../assets/dewetour-asset/palm-hd.png");
+
+  background-position: 100% 0%, 0% 0%;
+  background-size: 10%, 20%;
+  background-position: relative, relative;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.photo-profile-pic {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50px;
+  background-color: #ffaf00;
+}
+
+.custom-dropdown::after {
+  display:none !important;
+}
+
+.img-icon {
+  width: 1.5rem;
+}
